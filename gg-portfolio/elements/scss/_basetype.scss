@@ -1,0 +1,122 @@
+// this file only contains base typographical layout stuff
+// sizing, setting up of vertical rhythm, basic font styles and weights
+// colors and custom styling are not here, look elsewhere
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('elements/fonts/open-sans.eot');
+    src: url('elements/fonts/open-sans.eot?#iefix') format('embedded-opentype'),
+         url('elements/fonts/open-sans.woff') format('woff'),
+         url('elements/fonts/open-sans.ttf') format('truetype'),
+         url('elements/fonts/open-sans.svg#OpenSansRegular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('elements/fonts/open-sans-italic.eot');
+    src: url('elements/fonts/open-sans-italic.eot?#iefix') format('embedded-opentype'),
+         url('elements/fonts/open-sans-italic.woff') format('woff'),
+         url('elements/fonts/open-sans-italic.ttf') format('truetype'),
+         url('elements/fonts/open-sans-italic.svg#OpenSansItalic') format('svg');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('elements/fonts/open-sans-semibold.eot');
+    src: url('elements/fonts/open-sans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('elements/fonts/open-sans-semibold.woff') format('woff'),
+         url('elements/fonts/open-sans-semibold.ttf') format('truetype'),
+         url('elements/fonts/open-sans-semibold.svg#OpenSansSemibold') format('svg');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('elements/fonts/open-sans-semibold-italic.eot');
+    src: url('elements/fonts/open-sans-semibold-italic.eot?#iefix') format('embedded-opentype'),
+         url('elements/fonts/open-sans-semibold-italic.woff') format('woff'),
+         url('elements/fonts/open-sans-semibold-italic.ttf') format('truetype'),
+         url('elements/fonts/open-sans-semibold-italic.svg#OpenSansSemiboldItalic') format('svg');
+    font-style: italic;
+    font-weight: 600;
+}
+
+@mixin bold {
+    font-weight: 600;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    font-weight : 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    @include font-size(1.6, 1.5);
+}
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+code,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
+}
+
+h1,
+.alpha {
+    @include font-size(2.4, 1);
+    @include bold;
+}
+
+h2,
+.beta {
+    @include font-size(2.2, 1.0909);
+    @include bold;
+}
+
+h3,
+.gamma {
+    @include font-size(2.0, 1.2);
+    @include bold;
+}
+
+h4,
+.delta {
+    @include font-size(1.8, 1.333);
+    @include bold;
+}
+
+h5,
+h6,
+.epsilon {
+    @include font-size(1.6, 1.5);
+    @include bold;
+}
+
+small {
+    line-height: 1.875;
+}
+
+strong {
+    @include bold;
+}

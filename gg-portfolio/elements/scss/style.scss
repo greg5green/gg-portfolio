@@ -1,0 +1,45 @@
+/*!
+Theme Name: GG-Portfolio
+Theme URI: http://www.gregorygreen.info/
+Description: Personal Portfolio Theme
+Version: 1.0
+Author: Gregory Green
+Author URI: http://www.gregorygreen.info/
+*/
+
+@import "compass/css3";
+@import "compass/utilities";
+@import "normalize";
+@import "settings";
+@import "basetype";
+@import "styles";
+
+.clearfix,
+.clear-left,
+.clear-right {
+  height: 0;
+  font-size: 0.01em;
+  line-height: 0.01em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
