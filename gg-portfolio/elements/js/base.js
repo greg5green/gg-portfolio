@@ -11,7 +11,7 @@ jQuery(function($) {
 
         // check if our element is a multiple of our Magic Number
         // and therefore, not something that ruins rhythm
-        if ( eleRemainder !== 0 ) {
+        if (eleRemainder !== 0) {
 
             // calculate what to multiply our height and width by
             sizeMultiplier = (eleHeight - eleRemainder) / eleHeight;
