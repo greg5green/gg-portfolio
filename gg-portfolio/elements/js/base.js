@@ -1,19 +1,21 @@
-jQuery(document).ready(function($) {
+jQuery(function($) {
 
     // our magic number, in pixels, for use in maintaining vertical rhythm with any image
     var magicNumber = 24;
 
     $('.entry').find('img, iframe').each(function() {
         var eleHeight = this.offsetHeight,
-            eleRemainder = eleHeight % magicNumber;
+            eleRemainder = eleHeight % magicNumber,
+            sizeMultiplier,
+            eleWidth;
 
         // check if our element is a multiple of our Magic Number
         // and therefore, not something that ruins rhythm
         if ( eleRemainder !== 0 ) {
 
             // calculate what to multiply our height and width by
-            var sizeMultiplier = (eleHeight - eleRemainder) / eleHeight,
-                eleWidth = this.offsetWidth;
+            sizeMultiplier = (eleHeight - eleRemainder) / eleHeight;
+            eleWidth = this.offsetWidth;
 
             // actually set height and width so as to avoid ruining rhythm
             this.style.height = eleHeight * sizeMultiplier + 'px';
