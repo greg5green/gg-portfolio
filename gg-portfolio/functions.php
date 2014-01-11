@@ -155,11 +155,11 @@
     function portfolio_enqueue_styles_and_scripts() {
         if ( !is_admin() ) {
             // register styles
-            wp_register_style( 'base', get_stylesheet_uri(), array(), '1.0', 'all' );
+            wp_register_style( 'base', get_stylesheet_uri(), array(), '1.0.1', 'all' );
 
             // register scripts
             wp_register_script( 'modernizr', get_template_directory_uri() . '/elements/js/libs/modernizr.custom.min.js', array(), '2.6.2', false );
-            wp_register_script( 'base', get_template_directory_uri() . '/elements/js/base.js', array( 'jquery' ), '1.0', true );
+            wp_register_script( 'base', get_template_directory_uri() . '/elements/js/base.js', array( 'jquery' ), '1.0.1', true );
 
             // enqueue styles and scripts
             wp_enqueue_style( 'base' );
