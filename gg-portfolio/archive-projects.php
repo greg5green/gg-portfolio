@@ -4,7 +4,7 @@
         <?php if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <article <?php post_class(); ?>>
                 <header class="post-header">
-                    <h2><a href="<?php echo get_post_meta( get_the_ID(), 'portfolio_project_url', true ); ?>" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a></h2>
+                    <h2><a href="<?php echo get_post_meta( get_the_ID(), 'portfolio_project_url', true ); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                 </header>
                 <section class="entry">
                     <?php the_content(); ?>

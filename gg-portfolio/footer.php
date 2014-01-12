@@ -10,10 +10,10 @@
     </footer>
     <?php wp_footer(); ?>
     <script type="text/javascript">
-    var _gaq=[['_setAccount','UA-37683371-1'],['_setDomainName', 'gregorygreen.info'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
+        var _gaq=[['_setAccount','UA-37683371-1'],['_setDomainName', 'gregorygreen.info'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
 </body>
 </html>
