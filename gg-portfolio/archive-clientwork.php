@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <section class="content">
-        <?php $loop = new WP_Query( array( 'post_type' => 'clientwork', 'posts_per_page' => 100 ) ); ?>
+        <?php $loop = new WP_Query( array( 'post_type' => 'clientwork', 'posts_per_page' => -1 ) ); ?>
         <?php if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <article <?php post_class(); ?>>
                 <header class="post-header">
