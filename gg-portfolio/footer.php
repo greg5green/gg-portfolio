@@ -5,6 +5,7 @@
             <a href="mailto:greggreen@gmail.com" class="sm-icon email">Email</a>
             <a href="http://github.com/greg5green" class="sm-icon github">GitHub</a>
             <a href="http://www.linkedin.com/in/greg5green" class="sm-icon linkedin">LinkedIn</a>
+            <a href="http://stackoverflow.com/users/1883111/greg5green" class="sm-icon stack-overflow">Stack Overflow</a>
             <a href="http://www.twitter.com/greg5green" class="sm-icon twitter">Twitter</a>
         </p>
     </footer>
