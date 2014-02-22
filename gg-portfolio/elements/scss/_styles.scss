@@ -46,7 +46,7 @@ a {
 }
 
 .logo {
-    background: url(elements/img/logo.svg) no-repeat;
+    background: url(elements/img/logo.min.svg) no-repeat;
     float: left;
     @include rem(2.8);
     line-height: 48px;
@@ -193,9 +193,9 @@ a {
     input[type="submit"] {
         border: 0;
         background-color: transparent;
-        background-image: url(elements/img/gg-sprite-sheet.svg);
+        background-image: url(elements/img/gg-sprite-sheet.min.svg);
         background-repeat: no-repeat;
-        background-position: 8px -262px;
+        background-position: 7px -316px;
         cursor: pointer;
         height: 34px;
         height: 3.4rem;
@@ -226,7 +226,7 @@ a {
 }
 
 .sm-icon {
-    background-image: url(elements/img/gg-sprite-sheet.svg);
+    background-image: url(elements/img/gg-sprite-sheet.min.svg);
     background-repeat: no-repeat;
     @include hide-text;
     @include inline-block;
@@ -259,11 +259,11 @@ a {
 }
 
 .stack-overflow {
-    background-position: 0 -305px;
+    background-position: 0 -216px;
 }
 
 .twitter {
-    background-position: 0 -216px;
+    background-position: 0 -270px;
 }
 
 h1.four-oh-four {

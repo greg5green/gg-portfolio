@@ -434,7 +434,7 @@ a:hover {
 }
 
 .logo {
-  background: url(elements/img/logo.svg) no-repeat;
+  background: url(elements/img/logo.min.svg) no-repeat;
   float: left;
   font-size: 28px;
   font-size: 2.8rem;
@@ -625,9 +625,9 @@ a:hover {
 .search-form input[type="submit"] {
   border: 0;
   background-color: transparent;
-  background-image: url(elements/img/gg-sprite-sheet.svg);
+  background-image: url(elements/img/gg-sprite-sheet.min.svg);
   background-repeat: no-repeat;
-  background-position: 8px -262px;
+  background-position: 7px -316px;
   cursor: pointer;
   height: 34px;
   height: 3.4rem;
@@ -656,7 +656,7 @@ a:hover {
 }
 
 .sm-icon {
-  background-image: url(elements/img/gg-sprite-sheet.svg);
+  background-image: url(elements/img/gg-sprite-sheet.min.svg);
   background-repeat: no-repeat;
   text-indent: -119988px;
   overflow: hidden;
@@ -695,11 +695,11 @@ a:hover {
 }
 
 .stack-overflow {
-  background-position: 0 -305px;
+  background-position: 0 -216px;
 }
 
 .twitter {
-  background-position: 0 -216px;
+  background-position: 0 -270px;
 }
 
 h1.four-oh-four {
