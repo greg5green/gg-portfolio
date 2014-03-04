@@ -3,7 +3,7 @@ jQuery(function($) {
     // our magic number, in pixels, for use in maintaining vertical rhythm with any image
     var magicNumber = 24;
 
-    $('.entry').find('img, iframe').each(function() {
+    $('.entry').find('img, iframe, pre').each(function() {
         var eleHeight = this.offsetHeight,
             eleRemainder = eleHeight % magicNumber,
             sizeMultiplier,
